@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="libskyrim\BGSAttackData.cpp">
+      <Filter>libskyrim</Filter>
+    </ClCompile>
+    <ClCompile Include="libskyrim\BGSAttackDataMap.cpp">
+      <Filter>libskyrim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libskyrim\CRC.h">
+      <Filter>libskyrim</Filter>
+    </ClInclude>
+    <ClInclude Include="libskyrim\BGSAttackData.h">
+      <Filter>libskyrim</Filter>
+    </ClInclude>
+    <ClInclude Include="libskyrim\BGSAttackDataMap.h">
+      <Filter>libskyrim</Filter>
+    </ClInclude>
+    <ClInclude Include="libskyrim\BSTHashMap.h">
+      <Filter>libskyrim</Filter>
+    </ClInclude>
+    <ClInclude Include="libskyrim\BSTScatterTable.h">
+      <Filter>libskyrim</Filter>
+    </ClInclude>
+    <ClInclude Include="picojson\picojson.h" />
+    <ClInclude Include="DebugUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libskyrim">
+      <UniqueIdentifier>{7cf1820f-4459-41a0-8c5d-4f7c9319dc48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

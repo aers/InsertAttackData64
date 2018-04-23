@@ -1,0 +1,4 @@
+LIBRARY	"InsertAttackData64"
+EXPORTS
+SKSEPlugin_Query
+SKSEPlugin_Load
