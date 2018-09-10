@@ -262,7 +262,7 @@ static void InitAttackDataJson()
 }
 
 typedef bool(*_TESRaceLoadForm)(TESRace * race, int64_t unk1);
-RelocAddr<_TESRaceLoadForm> TESRaceOriginalLoadForm(0x00384E20);
+RelocAddr<_TESRaceLoadForm> TESRaceOriginalLoadForm(0x00384DB0);
 RelocAddr<uintptr_t> vtbl_TESRaceLoadForm(0x015BD138); // vtable[6]
 
 bool HookedLoadForm(TESRace * race, int64_t unk1)
@@ -343,7 +343,7 @@ extern "C" {
 			_MESSAGE("loaded in editor, marking as incompatible");
 			return false;
 		}
-		else if (skse->runtimeVersion != RUNTIME_VERSION_1_5_39)
+		else if (skse->runtimeVersion != RUNTIME_VERSION_1_5_50)
 		{
 			_MESSAGE("unsupported runtime version %08X", skse->runtimeVersion);
 			return false;
