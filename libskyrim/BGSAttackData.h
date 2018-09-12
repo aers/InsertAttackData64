@@ -44,7 +44,7 @@ public:
 
 
 	MEMBER_FN_PREFIX(BGSAttackData);
-	DEFINE_MEMBER_FN(ctor, BGSAttackData *, 0x003E7F60);	
+	DEFINE_MEMBER_FN(ctor, BGSAttackData *, 0x003E7E10);	
 };
 
 STATIC_ASSERT(sizeof(BGSAttackData) == 0x50);

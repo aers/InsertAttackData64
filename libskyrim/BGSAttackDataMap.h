@@ -50,8 +50,8 @@ public:
 	TESRace	* attackRace;	// 40 - init'd 0
 
 	MEMBER_FN_PREFIX(BGSAttackDataMap);
-	DEFINE_MEMBER_FN(AddFromMod, void, 0x003E8330, TESRace *race, TESFile *mod);
-	DEFINE_MEMBER_FN(ctor, BGSAttackDataMap*, 0x003E81D0);
+	DEFINE_MEMBER_FN(AddFromMod, void, 0x003E81E0, TESRace *race, TESFile *mod);
+	DEFINE_MEMBER_FN(ctor, BGSAttackDataMap*, 0x003E8080);
 };
 
 //class BGSAttackDataMap	size(72) :
